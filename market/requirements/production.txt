@@ -1,2 +1,1 @@
 # Dependencies for production deployment
--r base.txt
