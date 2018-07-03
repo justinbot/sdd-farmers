@@ -1,8 +1,7 @@
 class UserProfileMiddleware(object):
     """
     This middleware adds the current UserProfile to the request,
-    or a false value for anonymous users.
-
+    or a falsy value for anonymous users.
     This must be above any other middleware that depends on this information.
     """
 
